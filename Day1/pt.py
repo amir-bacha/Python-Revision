@@ -6,3 +6,5 @@ print(set1-set2) # difference 2,5
 print(set1^set2) # 2,4,5,6,7,9
 print(set1.issubset(set2)) # false
 print(set2.issuperset(set1)) # false
+set1.add(8)
+set1.remove(22)
